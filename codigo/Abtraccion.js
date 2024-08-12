@@ -2,7 +2,7 @@ class SerVivo {
     constructor(edad) {
         this.edad = edad;
     }
-   // Método para obtener la descripción de SerVivo
+   //creamos un metodo
     descripcion() {
         return `Es un ser vivo de ${this.edad} años.`;
     }

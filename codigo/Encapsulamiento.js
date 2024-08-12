@@ -1,3 +1,4 @@
+//Encapsulamos #saldo para que no pueda ser accedido directamente
 class CuentaBancaria {
     #saldo;  // Propiedad privada usando la sintaxis de `#`
 

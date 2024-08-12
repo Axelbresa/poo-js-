@@ -1,3 +1,4 @@
+//creamos una clase personaje
 class Personaje{
     constructor(name, edad){
         this.nombre=name
@@ -5,6 +6,7 @@ class Personaje{
     }
 }
 
+//una clase hijo que hereda nombre y edad
 class Rol extends Personaje{
     constructor(name, age, p_rol){
         super(name, age)
@@ -12,6 +14,7 @@ class Rol extends Personaje{
     }
 }
 
+//imprimimos
 let Personaje1=new Personaje("Daniela", 24 )
 let Personaje2=new Rol("Axel", 18, "mago")
 
