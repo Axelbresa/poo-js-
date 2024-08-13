@@ -1,3 +1,4 @@
+//Creamos una clase ser vivo para extraer de ahi la descripcion
 class SerVivo {
     constructor(edad) {
         this.edad = edad;
@@ -8,6 +9,7 @@ class SerVivo {
     }
 }
 
+// En la clase perro heredamos todas las propiedades y métodos de un SerVivo
 class Perro extends SerVivo {
     constructor(edad, raza) {
         super(edad);
@@ -24,6 +26,6 @@ class Perro extends SerVivo {
     }
 }
 
-// Ejemplo de uso
+// Instaciamos laa clase y imprimimos
 const miPerro = new Perro(5, 'Labrador');
 console.log(miPerro.descripcionCompleta());  
